@@ -12,9 +12,26 @@ input[type=text], select, textarea, #email {
   width: 100%;
 }
 
+input, select {
+  border: solid 1px #bebebe;
+  border-radius: 0%;
+  margin: 1% 1% 3% 0%;
+}
+
+select {
+  padding: 2%;
+}
+
 input{
     display: block;
-    margin: 1% 0% 3% 0%;
+    padding: 1.5% 0% 1.5% 0%;
+}
+
+input[type="button"] {
+  border: none;
+  padding: 2%;
+  background-color: #4b99ad;
+  color: white;
 }
 
 .head1 input{
