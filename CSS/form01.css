@@ -63,3 +63,21 @@ body {
 /* ===================================== FIN FORM 01 ==============*/
 
 /* ===================================== FIN FORM 02 ==============*/
+
+#sectionForm_02 h1 {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+#sectionForm_02 label,#sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select {
+  display: inline-block;
+  width : 45%;
+}
+
+#sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select, #sectionForm_02 text {
+  margin: 1%
+}
+
+#btn {
+  margin-left: 46%;
+}
