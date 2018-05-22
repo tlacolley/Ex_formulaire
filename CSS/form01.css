@@ -1,9 +1,28 @@
+body {
+  width: 30%;
+  margin: auto;
+}
+
 label{
     display: block;
 }
+
+input[type=text], select, textarea, #email {
+  box-sizing: border-box;
+  width: 100%;
+}
+
 input{
     display: block;
+    margin: 1% 0% 3% 0%;
 }
-.field01 input{
+
+.head1 input{
     display: inline-block;
+    width: 46%;
+}
+
+.body1 {
+  width: 100%;
+  box-sizing: border-box;
 }
