@@ -12,19 +12,21 @@
 
   <section>
     <form>
-      <fieldset>
+      <fieldset class="field01">
         <label for="fullName" class="required">Full Name</label>
-        <input name="fullName" type="name" placeholder="First" class="required"/><input name="fullName" type="name" placeholder="Last" class="required"/>
+        <input name="fullName" id="fullName" type="name" placeholder="First" class="required"/><input name="fullName" type="name" placeholder="Last" class="required"/>
       </fieldset>
       <fieldset>
-        <input type="email" />
-        <select>
+         <label for="email" class="required">Email</label>
+        <input type="email"id="email" class="required" />
+        <label for="subject" >Subject</label>
+        <select id="subject">
           <option>Advidce</option>
           <option>Issue</option>
           <option>Work</option>
         </select>
-        <label for="message">Your Message</label>
-        <textarea></textarea>
+        <label for="message" class="required">Your Message</label>
+        <textarea id="message"></textarea>
         <input type="button" value="Submit" />
       </fieldset>
     </form>
