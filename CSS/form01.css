@@ -69,15 +69,41 @@ body {
   font-style: oblique;
 }
 
-#sectionForm_02 label,#sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select {
+#sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select {
   display: inline-block;
   width : 45%;
-}
+  box-sizing: border-box;
 
+}
+#sectionForm_02 label{
+    width: 45%;
+     display: inline-block;
+}
 #sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select, #sectionForm_02 text {
-  margin: 1%
+  margin: 1%;
+  background-color: white;
+  color: black;
+  border: solid 1px #c2c2c2;
+  border-radius: 3%;
 }
+#sectionForm_02 sup{
+    color: red;
+}
+#sectionForm_02 label:last-of-type{
+    vertical-align: top;
+    margin-top: 2%;
 
-#btn {
-  margin-left: 46%;
+}
+#sectionForm_02 textarea{
+    height: 100px;
+}
+#sectionForm_02 #btn {
+    	margin-left: 47%;
+    	background-color: #ff8500;
+    	color: white;
+    	width: 25%;
+    	line-height: 2;
+    	border-radius: 6%;
+    	border: none;
+
 }
