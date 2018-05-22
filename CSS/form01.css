@@ -71,13 +71,23 @@ body {
 
 #sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select {
   display: inline-block;
-  width : 45%;
+  width : 70%;
   box-sizing: border-box;
 
 }
+
+#sectionForm_02 #phone {
+  width : 30%;
+}
+
+#sectionForm_02 input[type="email"],#sectionForm_02 #name {
+  width : 60%;
+}
+
+
 #sectionForm_02 label{
-    width: 45%;
-     display: inline-block;
+    width: 20%;
+    display: inline-block;
 }
 #sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select, #sectionForm_02 text {
   margin: 1%;
