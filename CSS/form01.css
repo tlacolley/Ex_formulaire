@@ -1,5 +1,5 @@
 body {
-  width: 30%;
+  width: 720px;
   margin: auto;
   height: 100%;
 }
@@ -62,7 +62,7 @@ body {
 }
 /* ===================================== FIN FORM 01 ==============*/
 
-/* ===================================== FIN FORM 02 ==============*/
+/* ===================================== FORM 02 ==============
 
 #sectionForm_02 h1 {
   font-weight: bold;
@@ -76,8 +76,9 @@ body {
 
 }
 #sectionForm_02 label{
-    width: 45%;
-     display: inline-block;
+    width: 15%;
+    display: inline-block;
+    margin-right: 11%;
 }
 #sectionForm_02 input, #sectionForm_02 textarea,#sectionForm_02 select, #sectionForm_02 text {
   margin: 1%;
@@ -97,14 +98,51 @@ body {
 #sectionForm_02 textarea{
     height: 100px;
 }
-#sectionForm_02 #btn {
-    	margin-left: 47%;
+#sectionForm_02 #btn02 {
+    	margin-left: 27.5%;
     	background-color: #ff8500;
     	color: white;
-    	width: 25%;
+    	width: 15%;
     	line-height: 2;
     	border-radius: 6%;
     	border: none;
+}
+#phone02{
+
+}
+
+/* ===================================== FIN FORM 02 ==============*/
 
 
+/* ===================================== FORM 03 ==============*/
+
+.head03{
+    border: solid 1px black;
+    background-color: lightpink;
+    margin-top: 5%;
+    box-sizing: border-box;
+    padding: 3%;
+    color: red;
+}
+.head03 legend{
+    border: solid 1px black;
+    border-bottom: none;
+    background-color: lightpink;
+    color: red;
+    padding:
+}
+.head03 label{
+    display:inline-block;
+    width: 15%;
+}
+.head03 input, .head03 select{
+    display: inline-block;
+    width: 52%;
+    margin: 1% 15% 1% 1%;
+    background-color: red;
+    
+
+}
+.head03 select{
+width: 53%;
 }

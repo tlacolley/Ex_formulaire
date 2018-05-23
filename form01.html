@@ -10,7 +10,7 @@
 
 <body>
 
-<!--
+    <!--
     <form id="form_01">
         <fieldset class="head1">
             <label for="fullName" class="required">Full Name<sup>*</sup></label>
@@ -31,20 +31,20 @@
         </fieldset>
     </form>
 -->
-    <section id= sectionForm_02>
+<!--       <section id= sectionForm_02>
         <h1>Provide your information</h1>
         <hr />
 
         <form id="form_02">
 
-          <label for="name" required>Name<sup>*</sup></label>
-          <input id="name" type="text"/>
+          <label for="name02" required>Name<sup>*</sup></label>
+          <input id="name02" type="text"/>
 
-          <label for="email">Email<sup>*</sup></label>
-          <input id="email" type="email" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"required/>
+          <label for="email02">Email<sup>*</sup></label>
+          <input id="email02" type="email" pattern="[0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2} [0-9]{2}"required/>
 
-          <label for="phone">Telephone</label>
-          <input id="phone" type="tel"/>
+          <label for="phone02">Telephone</label>
+          <input id="phone02" type="tel"/>
 
           <label for="regarding">Regarding</label>
           <select id="regarding">
@@ -53,24 +53,50 @@
             <option>CHOCOLAT</option>
           </select>
 
-          <label for="message">Message<sup>*</sup></label>
-          <textarea></textarea>
+          <label for="message02">Message<sup>*</sup></label>
+          <textarea id="message02"></textarea>
 
 
 
-          <input id="btn"type="button" value="submit"/>
-
-
-
-
+          <input id="btn02"type="button" value="submit"/>
         </form>
+    </section> -->
 
 
 
-    </section>
-
-
-
+<form class="form_03">
+    <fieldset class="head03">
+        <legend>
+            Personal
+        </legend>
+        <label for="Name03">Name<sub>*</sub></label>
+        <input type="text" id="Name03" />
+        <label for="Email03">Email<sub>*</sub></label>
+        <input type="email" id="Email03" />
+        <label for="phone03">Phone<sub>*</sub></label>
+        <input type="tel" id="phone03" />
+        <label for="subject03">Subject</label>
+        <select id="subject03">
+                <option selected>
+                Appointment
+                </option>
+                 <option>
+                Appointment02
+                </option>
+                <option>
+                Appointment 03
+                </option>
+            </select>
+    </fieldset>
+    <fieldset class="body03">
+        <legend>
+            Message
+        </legend>
+        <label for="message03">Message<sub>*</sub></label>
+        <textarea></textarea>
+        <input type="button" value="Submit" />
+    </fieldset>
+</form>
 
 
 
