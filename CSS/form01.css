@@ -124,8 +124,28 @@ body {
     border: none;
 }
 
-#phone02 {}
+#sectionForm_02 .phone02 {
+  width: 6%;
+  margin: 0.5%;
+}
 
+#sectionForm_02 #idphone02 {
+  margin-left: 1%;
+}
+
+#sectionForm_02 #lastPhone{
+  margin-right: 25%;
+}
+
+#sectionForm_02 #name02, #sectionForm_02 #email02 {
+  width: 35%;
+  margin-right: 25%;
+}
+
+#sectionForm_02 select {
+  width: 18%;
+  margin-right: 40%;
+}
 /* ===================================== FIN FORM 02 ==============*/
 
 /* ===================================== FORM 03 ==============*/
@@ -216,12 +236,8 @@ sup {
     border: outset 1px #eb3b88;
     margin-left: 24%;
 }
+
 .head03 select {
-
-
-
-  /* reset */
-
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -229,6 +245,7 @@ sup {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+
 #subject03 {
     background-image: linear-gradient(45deg, transparent 50%, black 50%  ), linear-gradient(135deg, black 50%, transparent 50%), linear-gradient(to right, #ffeff6, #ffeff6);
     background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), 100% 0;
