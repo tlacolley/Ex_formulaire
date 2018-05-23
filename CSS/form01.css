@@ -116,33 +116,79 @@ body {
 
 /* ===================================== FORM 03 ==============*/
 
-.head03{
-    border: solid 1px black;
-    background-color: lightpink;
+.form_03 {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.head03, .body03 {
+    border: solid 1px #ffd2d2;
+    background-color: #fff4f4;
     margin-top: 5%;
     box-sizing: border-box;
     padding: 3%;
-    color: red;
+    color: #f072a9;
+    border-radius: 12px;
 }
-.head03 legend{
-    border: solid 1px black;
+
+.head03 input, .head03 select, .head03 legend, .body03 input, .body03 textarea, .body03 legend {
+  border-radius: 3px;
+}
+
+.body03 textarea {
+  background-color: #ffeff6;
+  border: solid 1px #ffc2dc;
+}
+
+.head03 legend, .body03 legend{
+    border: solid 1px #ffd2d2;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     border-bottom: none;
-    background-color: lightpink;
-    color: red;
-    padding:
+    background-color: #fff4f4;
+    color: #ffa4cb;
+    padding: 2%;
 }
-.head03 label{
+
+.form_03 label{
     display:inline-block;
     width: 15%;
+    font-weight: bold;
 }
-.head03 input, .head03 select{
+
+.head03 input, .head03 select {
     display: inline-block;
     width: 52%;
-    margin: 1% 15% 1% 1%;
-    background-color: red;
-    
-
+    margin: 1% 15% 1% 8%;
+    background-color: #ffeff6;
+    border: solid 1px #ffc2dc;
+    height: 30px;
+    box-shadow: 1px 1px 5px #ffc2dc inset;
 }
+
+.body03 textarea {
+  display: inline-block;
+  width: 65%;
+  height: 50%;
+  margin: 1% 10% 1% 8%;
+  background-color: #ffeff6;
+  border: solid 1px #ffc2dc;
+  height: 130px;
+  box-shadow: 1px 1px 5px #ffc2dc inset;
+}
+
+.body03 label {
+  vertical-align: top;
+  margin-top: 3%;
+}
+
 .head03 select{
-width: 53%;
+    width: 53%;
+    color: #f072a9;
+}
+
+sup {
+  color: red;
+  margin-left: 5%;
 }
