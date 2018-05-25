@@ -294,3 +294,77 @@ sup {
     border-radius: 3px;
     text-transform: capitalize;
 }
+/* ===================================== FIN FORM 04 ==============*/
+
+/* ===================================== FORM 05 ==============*/
+
+.form05 {
+  height: 100%;
+  width: 100%;
+  background-color: #f4f7f8;
+  text-transform: capitalize;
+}
+
+.input05, select, .button05, textarea, #label05 {
+  display: block;
+  width: 80%;
+  margin: auto;
+  background-color: #e8eeef;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.input05, textarea, .button05 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.input05, textarea {
+  border-radius: 10px;
+  border: none;
+  color: #e1e1e2;
+}
+.numb05, .form05 h2 {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+#label05 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #f4f7f8;
+}
+
+.numb05 {
+  margin-left: 10%;
+  background-color: #1abc9c;
+  color: #d7f3ee;
+  padding: 8px 11px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+.input05 {
+  height: 30px;
+}
+
+textarea {
+  height: 70px;
+}
+
+#inter {
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  color: #919da6;
+}
+
+.button05 {
+  background-color: #1abc9c;
+  border: 2px solid #16a085;
+  /* box-shadow: 0px 0px 10px inset black; */
+  padding: 25px 10px;
+  color: white;
+}
+/* ===================================== FIN FORM 05 ==============*/
