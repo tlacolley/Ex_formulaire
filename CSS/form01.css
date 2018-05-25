@@ -259,18 +259,38 @@ sup {
 /* ===================================== FORM 04 ==============*/
 #formulaire_04{
 
-    background-color: grey;
-    border: solid 2px black;
-    padding: 2%;
+    background-color: #495c70;
+    border: solid 8px #53687e;
+    padding: 3%;
     box-sizing: border-box;
+    color: white;
+
 }
 .form_04 label{
     display: inline-block;
     width: 25%;
+    margin-top: 1%;
+    text-transform: capitalize;
+    font-size: 1.1em;
 
 }
 .input04{
     display: inline-block;
     width: 50%;
     margin-left: 5%;
+    margin-top: 1%;
+    border: none;
+    background-color: #495c70;
+    border-bottom: 2px dashed #a8bace;
+}
+.button04{
+    color: #a8bace;
+    background-color: #576e86;
+    display: block;
+    margin: 2% 0% 0% 31%;
+    border: none;
+    padding: 7px 9px;
+    font-size: 1em;
+    border-radius: 3px;
+    text-transform: capitalize;
 }
